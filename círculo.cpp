@@ -3,7 +3,7 @@
 using namespace std;
   //vai iniciar o código
 int main() {
-    //´é um valor indeterminado, sendo nomeado como raio e área
+    //é um valor indeterminado, sendo nomeado como raio e área
     float raio, area;
     //está mostrando os valores, sendo PI o valor dado abaixo
     const float PI = 3.14159;

@@ -12,12 +12,14 @@ int main() {
     divi = num1 / num2;
     modulo = num1%num2;
     subt = num1 - num2;
-    //A interface, colocando o que aparecerá na hora de rodar
-    cout<<soma<<endl;
-    cout<<multi<<endl;
-    cout<<divi<<endl;
-    cout<<modulo<<endl;
-    cout<<subt<<endl;
+    //É a interface, o que vai ser mostrado como resposta final. No caso, a soma, mult, divi, modulo e subt serão substituídos, farão a conta a partir da fórmula...
+    //... e vão aparecer na tela com os resultados.
+    cout<<"Contas de + * / % - feitas a partir dos números 10 e 4:"<<endl;
+    cout<<"soma: "<<soma<<endl;
+    cout<<"mult: "<<multi<<endl;
+    cout<<"divi: "<<divi<<endl;
+    cout<<"módulo: "<<modulo<<endl;
+    cout<<"subt: "<<subt<<endl;
 
     return 0;
 }

@@ -1,4 +1,5 @@
 #include <iostream>
+//biblioteca para que os códigos à seguir sejam compreendidos pelo programa
 using namespace std;
 
 int main() {

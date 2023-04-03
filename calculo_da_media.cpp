@@ -10,19 +10,19 @@ int main() {
     //doble seria um float, mas com o dobro de precisão, uma versão 
     double nota1, nota2, nota3, nota4;
     //o texto que aparecerá na interface
-    cout << "Digite sua primeira nota do semestre >>>";
+    cout << "Digite sua primeira nota do semestre: ";
     //a resposta que for dada, será o valor que vai ser colocado como nota1
     cin >> nota1;
     //o texto que aparecerá na interface
-    cout << "Digite sua segunda nota do semestre >>>";
+    cout << "Digite sua segunda nota do semestre: ";
     //o valor será colocado como nota2
     cin >> nota2;
     //o texto que aparecerá na interface
-    cout << "Digite sua terceira nota do semestre >>>";
+    cout << "Digite sua terceira nota do semestre: ";
     //o valor será colocado como nota3
     cin >> nota3;
     //o texto que aparecerá na interface
-    cout << "Digite sua quarta nota do semestre >>>";
+    cout << "Digite sua quarta nota do semestre: ";
     //o valor será colocado como nota4
     cin >> nota4;
     //está definindo o que é a soma, sendo soma = n1 + n2 + n3 + n4

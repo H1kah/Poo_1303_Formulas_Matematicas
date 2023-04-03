@@ -40,7 +40,7 @@ int main() {
     else {
         cout << "Eita, você foi reprovado!" << endl;
     }
-    cout << "Deseja continuar (s/n)?" << endl;
+    cout << "Deseja continuar (s/n)?: ";
     cin >> continuar;
     }
     return 0;

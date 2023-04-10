@@ -3,11 +3,7 @@
 using namespace std;
 //está iniciando 
 int main() {
-    //char está se referindo o que é o verdadeiro
-    char continuar = 's';
-    //o comando para que o comando se repita logo após o que está a seguir
-    while (continuar == 's' || continuar == 'S') {
-    //doble seria um float, mas com o dobro de precisão, uma versão 
+     
     string nome;
     double AC1, AC2, AG, AF, RA;
     double soma;
@@ -61,11 +57,6 @@ int main() {
     default:
     cout << "KKKKKKK se ferrou, "<<nome<<". Reprovou com "<<soma<< endl;
     break;
-    }
-     //mensagem que aparecerá na tela
-    cout << "Deseja continuar (s/n)?: ";
-  //cin é a informação que será preenchida de acordo com o que for colocado
-    cin >> continuar;
     }
     return 0;
 }
